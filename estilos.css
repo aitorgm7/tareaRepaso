@@ -1,0 +1,206 @@
+html{
+    width: 1200px;
+}
+
+body{
+    width: 1160px;
+    margin: 0px auto;
+    font-size: 16px;
+    color: #0866DB;
+}
+
+div{
+    display: inline-block;
+}
+
+header{
+    width: 1120px; /*1160-20-20*/
+    height: 80px;  /*120-20-20*/
+    padding: 20px;
+    color: white;
+    background-color: #205A82;
+}
+
+nav{
+    width: 1120px;  /*1160-20-20*/
+    height: 40px;   /*60-10-10*/
+    padding: 10px 20px;
+    background-color: #5AAFE0;
+}
+
+#section-principal{
+    width: 1120px;  /*1160-20-20*/
+    height: 310px;  /*350-20-20*/
+    padding: 20px;
+}
+
+#section-inferior{
+    width: 1140px;  /*1160-20*/
+    height: 747px;  /*777-15-15*/
+    padding: 15px 0px 15px 20px;
+}
+
+footer{
+    width: 1120px;  /*1160-20-20*/
+    height: 40px;   /*80-20-20*/
+    padding: 20px;
+    text-align: center;
+    background-color: #205A82;
+    color: white;
+}
+
+/*contenido header*/
+
+#textoTitulo{
+    width: 300px;
+    height: 80px;
+    margin: 0px 20px;
+    float: left;
+    text-align: center;
+}
+
+#imagenTitulo{
+    width: 170px;
+    height: 80px;
+    margin: 0px 20px;
+    float: right;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+nav>ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav>ul li {
+    display: inline-block;
+    margin: 0 50px;       /* 50 + 50 = 100 de separación entre botones */
+}
+
+nav>ul a {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+#activo{
+    background-color: #07579B;
+}
+
+#imagenPrincipal{
+    width: 560px;
+    height: 310px;
+    margin-right: 20px;
+    float: left;
+}
+
+#textoPrincipal{
+    width: 500px; /*540-20-20*/
+    height: 300px; /*310-5-5*/
+    border: 1px;
+    padding: 5px 20px;
+    background-color: #E5F2FC;
+    float: right;
+}
+
+#textoPrincipla>p{
+    font-size: 18px;
+}
+
+form{
+    width: 428px;
+    padding: 0px 20px;
+    border: 1px;
+    margin-right: 20px;
+    font-size: 14px;
+    float: left;
+}
+
+form>h1{
+    font-size: 20px;
+    background-color: #DCECF9;
+}
+
+#cajaInformativa{
+    width: 440px;
+    height: 717px;
+    padding: 15px;
+}
+
+select{
+    width: 420px;
+    height: 60px;
+    padding: 0px 10px;
+    margin-bottom: 30px;
+    color: #0866DB;
+}
+
+form>input:first-of-type{
+    width: 198px;
+    height: 58px;
+    padding: 0px 10px;
+    margin-right: 50px;
+    margin-bottom: 16px;
+    color: #0866DB;
+}
+
+form>input:nth-of-type(2){
+    width: 120px;
+    height: 58px;
+    padding: 0px 10px;
+    margin-bottom: 16px;
+    color: #0866DB;
+}
+
+form>textarea{
+    width: 400px;
+    height: 58px;
+    padding: 0px 10px;
+    margin-bottom: 16px;
+    color: #0866DB;
+}
+
+input[type="submit"]{
+    width: 422px;
+    height: 60px;
+    margin-bottom: 16px;
+    color: white;
+    background-color: #2D9B48;
+}
+
+#imagenInferior{
+    width: 470px;
+    height: 411px;
+    margin-bottom: 25px;
+    display: block;
+}
+
+#textoInferior{
+    width: 420px;
+    height: 311px;
+    padding: 0px 25px;
+    display: block;
+    background-color: #E8F4E9;
+}
+
+#textoInferior>ul li::marker {
+    content: "✔️";
+}
+
+h1{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 14px;
+}
